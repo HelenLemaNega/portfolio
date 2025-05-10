@@ -299,8 +299,11 @@ footer{
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-.social-icons i:hover{
+.social-icons a {
     color: white;
+}
+.social-icons i:hover{
+    color: rgb(0, 255, 0);
 }
 
 @media(max-width:968px) {
